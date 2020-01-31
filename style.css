@@ -1,0 +1,91 @@
+.blanket {
+
+    width: 50%;
+    overflow: auto; 
+    position: relative;
+    margin: 1% 0 1% 25%;
+
+}
+
+
+body {
+	
+    font-family: 'Lucida Sans Typewriter', serif;
+    background-color: beige;
+
+}
+
+hr {
+	border-top: 5px solid brown;
+}
+
+.head {
+    position: relative; 
+	background-color: burlywood; 
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+#inquiry {
+    margin: 1% auto;
+    background-color: burlywood;
+    text-align: center;
+    padding: 10px;
+}
+
+#results {
+    margin: 1% auto;
+    padding: 10px;
+    text-align: center;
+    background-color: burlywood;
+}
+
+#results #excesses {
+    padding: 10px;
+    margin: 0 auto;
+    
+    /* background-color: salmon;
+    border-width: 1px;
+    border-style: solid; */
+}
+
+#results #innerSanctum {
+    padding: 20px;
+    margin: 0 auto
+}
+
+.outputTemplate {
+    padding: 5px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+    color: brown;
+}
+
+
+#outputGST, #outputSVC, #outputDrinks {
+    font-weight: bold;
+    font-size: 18px;
+    color: green;
+}
+
+#outputFood {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    color: red;
+}
+
+#comments {
+    color: blue;
+    font-weight: bold;
+    font-size: 16px;
+};
+
+
+
+
+
+ 

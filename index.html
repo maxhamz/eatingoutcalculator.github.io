@@ -1,0 +1,129 @@
+<html>
+
+<head>
+  <link href="style.css" rel="stylesheet" />
+  <title>Eating Out Calculator</title>
+</head>
+
+<body>
+  <!-- <script src="script-main.js"></script>
+    <script src="script-menu.js"></script>
+    <script src="script-characters.js"></script> -->
+
+  <div class="blanket">
+
+    <hr>
+
+    <div class="head">
+      <h1>
+        How Much Can You ACTUALLY Spend On Food?
+      </h1>
+      <h2>
+        <p>
+          Need optimal fun while dining on a budget?
+          Gotta account for those "annoying" taxes & fees.
+          Let's roll!
+        </p>
+      </h2>
+    </div>
+
+    <hr>
+
+    <div id="inquiry">
+
+      <form action="#generatedOutput">
+
+        <!-- put in your budget -->
+        <label>
+          <h3>Budget (in IDR)</h3>
+        </label>
+        <!-- <br> -->
+        <input id="budgetInput" type="number" minlength="5" maxlength="18" pattern="[0-9]"
+          oninput="calculateFoodPrice()" placeholder="E.g. 30,000" required>
+
+        <br>
+
+        <label>
+          <h3>Will You Buy Drinks?</h3>
+        </label>
+        <!-- <br> -->
+        <input id="opt1" type="radio" name="byb" value="true" onclick="calculateFoodPrice()" checked="checked">Yes
+
+        <!-- <br> -->
+
+        <input id="opt2" type="radio" name="byb" value="false" onclick="calculateFoodPrice()">No
+
+        <br>
+
+      </form>
+    </div>
+
+    <hr>
+
+    <div id="results">
+
+      <h3>Breakdown in IDR</h3>
+
+      <p id="excesses">
+
+        <span class="outputTemplate">GST:
+          <br>
+          <span id="outputGST"></span>
+        </span>
+
+        <br>
+
+        <span class="outputTemplate">Service Charge/Tipping:
+          <br>
+          <span id="outputSVC"></span>
+        </span>
+
+        <br>
+
+        <span class="outputTemplate">Drinks Bill:
+          <br>
+          <span id="outputDrinks"></span>
+        </span>
+
+      </p>
+
+
+      <br>
+
+      <p id="innerSanctum">
+
+        <span class="outputTemplate">Food Bill:
+          <br>
+          <span" id="outputFood">
+        </span>
+        </span>
+
+        <br>
+
+        <span class="outputTemplate">Note:
+          <br>
+          <span id="comments"></span>
+        </span>
+
+      </p>
+
+
+
+      <br>
+
+    </div>
+
+    <hr>
+
+
+  </div>
+
+
+
+
+
+  <script type="text/javascript" src="index.js"></script>
+
+</body>
+
+</html>

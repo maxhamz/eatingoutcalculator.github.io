@@ -1,9 +1,11 @@
+
+
 .blanket {
 
     width: 50%;
     overflow: auto; 
     position: relative;
-    margin: 1% 0 1% 25%;
+    margin: 0 0 0 25%;
 
 }
 
@@ -11,12 +13,18 @@
 body {
 	
     font-family: 'Lucida Sans Typewriter', serif;
-    background-color: beige;
+    background-image: url("./img/italianTableCloth.png");
 
 }
 
+#letterHead {
+    overflow: auto; 
+    position: relative;
+    padding: 0 0 0 30%;
+}
+
 hr {
-	border-top: 5px solid brown;
+	border-top: 5px solid greenyellow;
 }
 
 .head {
@@ -82,6 +90,16 @@ hr {
     color: blue;
     font-weight: bold;
     font-size: 16px;
+}
+
+#footer {
+
+    padding: 5px;
+	text-align: center;
+	font-weight: 900;
+    color: yellow;
+    background-color: brown;
+
 };
 
 
